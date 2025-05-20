@@ -3,15 +3,15 @@
 	"id": "piston-push-limit-extender",
 	"version": "${version}",
 	"name": "Piston Push Limit Extender",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A lightweight Minecraft Fabric mod to raise piston push limits beyond the vanilla 12‑block cap, with configuration support.",
 	"authors": [
-		"Me!"
+		"fannmods"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/piston-push-limit-extender",
+		"sources": "https://github.com/fann22/Piston-Push-Limit-Extender"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/piston-push-limit-extender/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,12 +23,9 @@
 		"piston-push-limit-extender.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.14.4",
+		"fabricloader": "*",
+		"minecraft": "*",
 		"java": ">=8",
 		"fabric": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
