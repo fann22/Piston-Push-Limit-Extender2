@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "fannmods.pistonpushlimitextender.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"MixinPistonHandler"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
